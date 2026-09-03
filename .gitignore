@@ -1,0 +1,21 @@
+# Environnement virtuel Python
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Données et modèles trop volumineux pour GitHub (>100 Mo)
+WADI_14days_new.csv
+models/*.pkl
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# OS
+.DS_Store
+Thumbs.db
