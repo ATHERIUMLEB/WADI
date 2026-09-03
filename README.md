@@ -2,10 +2,6 @@
 
 Projet d'apprentissage : prédire le niveau futur d'un réservoir d'eau à partir des données SCADA du banc d'essai WADI.
 
-## Point d'entrée principal
-
-**[Design doc](docs/design_doc.md)** — document de référence permanent du projet (vision, pipeline, modèles, critères de réussite).
-
 ## Arborescence
 
 ```
@@ -20,14 +16,6 @@ my_wadi/
     └── rapport/                       ← livrables d'analyse
 ```
 
-## Liens rapides
-
-| Document | Description |
-|----------|-------------|
-| [Design doc](docs/design_doc.md) | Vision, pipeline, modèles, compréhension |
-| [Guide](docs/guide/README.md) | Glossaire, fiches modèles, pipeline |
-| [Rapport](docs/rapport/README.md) | Méthodologie, résultats, ablation, limitations |
-| [Notebook](wadi_reservoir_forecasting.ipynb) | Code : données → modèles → évaluation |
 
 ## Démarrage rapide
 
@@ -43,6 +31,6 @@ jupyter notebook wadi_reservoir_forecasting.ipynb
 
 > Prédire le niveau du réservoir principal (`2_LT_001_PV`) dans **10 minutes** pour anticiper les débordements et optimiser le pompage.
 
-## Nature du projet
+## But du projet
 
-Ce projet est un **projet d'apprentissage** : l'objectif n'est pas seulement d'obtenir le meilleur score, mais de **comprendre** chaque étape du pipeline et chaque modèle testé.
+ l'objectif n'est pas seulement d'obtenir le meilleur score, mais de **comprendre** chaque étape du pipeline et chaque modèle testé.
